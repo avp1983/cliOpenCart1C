@@ -1,0 +1,129 @@
+2016-04-15 14:29:51 - PHP Notice:  Undefined variable: search in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\column_left.tpl on line 3
+2016-04-15 14:32:58 - PHP Notice:  Undefined variable: search in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\header.tpl on line 83
+2016-04-15 14:34:07 - PHP Notice:  Undefined variable: search in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\header.tpl on line 83
+2016-04-15 14:41:10 - PHP Notice:  Undefined variable: search in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\header.tpl on line 83
+2016-04-18 9:41:53 - PHP Notice:  Undefined property: Loader::$request in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\cart.tpl on line 4
+2016-04-18 9:41:53 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\cart.tpl on line 4
+2016-04-18 9:43:44 - PHP Notice:  Undefined index: path in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\cart.php on line 41
+2016-04-18 9:47:39 - PHP Notice:  Undefined index: route in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\cart.php on line 41
+2016-04-18 10:10:21 - PHP Notice:  Undefined index: information_id in C:\xampp\htdocs\santehych.test\www\catalog\view\theme\default\template\common\cart.tpl on line 4
+2016-04-26 17:50:23 - PHP Warning:  mysqli::query(): MySQL server has gone away in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 19
+2016-04-26 17:50:23 - PHP Warning:  mysqli::query(): Error reading result set's header in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 19
+2016-04-26 17:50:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_layout_route WHERE 'common/home' LIKE route AND store_id = '0' ORDER BY route DESC LIMIT 1 in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:23 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\design\layout.php on line 6
+2016-04-26 17:50:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_layout_module WHERE layout_id = '4' AND position = 'content_bottom' ORDER BY sort_order in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:23 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\design\layout.php on line 16
+2016-04-26 17:50:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\content_bottom.php on line 48
+2016-04-26 17:50:23 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_information i LEFT JOIN oc_information_description id ON (i.information_id = id.information_id) LEFT JOIN oc_information_to_store i2s ON (i.information_id = i2s.information_id) WHERE id.language_id = '1' AND i2s.store_id = '0' AND i.status = '1' ORDER BY i.sort_order, LCASE(id.title) ASC in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:23 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\catalog\information.php on line 12
+2016-04-26 17:50:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\footer.php on line 25
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_category c LEFT JOIN oc_category_description cd ON (c.category_id = cd.category_id) LEFT JOIN oc_category_to_store c2s ON (c.category_id = c2s.category_id) WHERE c.parent_id = '0' AND cd.language_id = '1' AND c2s.store_id = '0'  AND c.status = '1' ORDER BY c.sort_order, LCASE(cd.name) in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\catalog\category.php on line 12
+2016-04-26 17:50:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\header.php on line 97
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_currency ORDER BY title ASC in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\localisation\currency.php on line 17
+2016-04-26 17:50:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\model\localisation\currency.php on line 17
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'total' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\extension\extension.php on line 6
+2016-04-26 17:50:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\cart.php on line 19
+2016-04-26 17:50:24 - PHP Warning:  array_multisort(): Argument #3 is expected to be an array or a sort flag in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\cart.php on line 23
+2016-04-26 17:50:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\cart.php on line 25
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_layout_route WHERE 'common/home' LIKE route AND store_id = '0' ORDER BY route DESC LIMIT 1 in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\design\layout.php on line 6
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_layout_module WHERE layout_id = '4' AND position = 'content_head' ORDER BY sort_order in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\design\layout.php on line 16
+2016-04-26 17:50:24 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\santehych.test\www\catalog\controller\common\content_head.php on line 46
+2016-04-26 17:50:24 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_module WHERE module_id = '31' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-26 17:50:24 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\catalog\model\extension\module.php on line 6
+2016-04-27 12:35:28 - PHP Notice:  Undefined index: column in C:\xampp\htdocs\santehych.test\www\admin\model\catalog\category.php on line 6
+2016-04-27 12:35:28 - PHP Notice:  Undefined index: sort_order in C:\xampp\htdocs\santehych.test\www\admin\model\catalog\category.php on line 6
+2016-04-27 12:35:28 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\santehych.test\www\admin\model\catalog\category.php on line 6
+2016-04-27 12:38:48 - PHP Notice:  Error: Duplicate entry '60-0' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_category_to_store SET category_id = '60', store_id = '0' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-27 12:38:49 - PHP Notice:  Error: Duplicate entry '60-0' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_category_to_store SET category_id = '60', store_id = '0' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-27 12:38:58 - PHP Notice:  Error: Duplicate entry '60-0' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_category_to_store SET category_id = '60', store_id = '0' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-27 12:39:02 - PHP Notice:  Error: Duplicate entry '60-1' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_category_to_store SET category_id = '60', store_id = '1' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-27 12:39:15 - PHP Notice:  Error: Duplicate entry '60-1' for key 'PRIMARY'<br />Error No: 1062<br />INSERT INTO oc_category_to_store SET category_id = '60', store_id = '1' in C:\xampp\htdocs\santehych.test\www\system\library\db\mysqli.php on line 41
+2016-04-28 15:28:53 - PHP Unknown:  Object of class ControllerCommonImport could not be converted to string in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 27
+2016-04-28 15:28:53 - PHP Notice:  Object of class ControllerCommonImport to string conversion in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 27
+2016-04-28 15:28:53 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 27
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 16:51:08 - PHP Notice:  Undefined variable: index in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 82
+2016-04-28 19:24:16 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:24:16 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Notice:  Undefined index: ﻿Материалы in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 93
+2016-04-28 19:29:51 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Notice:  Undefined index: Ванны in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 93
+2016-04-28 19:29:51 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 84
+2016-04-28 19:29:51 - PHP Notice:  Undefined index: Ванны ФФФФФ in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 93
+2016-04-28 19:48:24 - PHP Notice:  Undefined index: ﻿Материалы in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 19:48:24 - PHP Notice:  Undefined index: Ванны in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 19:48:24 - PHP Notice:  Undefined index: Ванны ФФФФФ in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 19:58:33 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Notice:  Undefined index: ﻿Материалы in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 19:58:33 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Notice:  Undefined index: Ванны in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 19:58:33 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 19:58:33 - PHP Notice:  Undefined index: Ванны ФФФФФ in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 20:01:55 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:01:55 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:08 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:08 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:16 - PHP Notice:  Undefined index: ﻿Материалы in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 20:02:39 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:39 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:43 - PHP Notice:  Undefined index: Ванны in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-28 20:02:44 - PHP Notice:  Undefined offset: 3 in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:44 - PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 85
+2016-04-28 20:02:48 - PHP Notice:  Undefined index: Ванны ФФФФФ in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 94
+2016-04-29 8:21:41 - PHP Unknown:  Object of class ControllerCommonImport could not be converted to string in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 39
+2016-04-29 8:21:41 - PHP Notice:  Object of class ControllerCommonImport to string conversion in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 39
+2016-04-29 8:21:41 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\santehych.test\www\admin\controller\common\import.php on line 39
+2016-04-29 20:45:41 - PHP Notice:  Undefined variable: response in C:\xampp\htdocs\importxml\index.php on line 170
+2016-04-29 21:53:28 - PHP Notice:  Undefined variable: parentid in C:\xampp\htdocs\importxml\model\catalog\import.php on line 10
